@@ -1,0 +1,17 @@
+[
+  {
+    "repository": "TeamOrion-Devices/kernel_motorola_msm8992",
+    "target_path": "kernel/motorola/msm8992",
+    "branch":      "6.0.1"
+  },
+  {
+    "repository": "TeamOrion-Devices/proprietary_vendor_motorola",
+    "target_path": "vendor/motorola",
+    "branch":      "mm6.0"
+  },
+  {
+    "repository": "CyanogenMod/android_hardware_sony_thermanager",
+    "target_path": "hardware/sony/thermanager",
+    "branch":      "cm-13.0"
+  }
+]
