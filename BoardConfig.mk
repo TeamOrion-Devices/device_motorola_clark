@@ -129,6 +129,9 @@ KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/$(HOST_OS)-x86/aarch64/aa
 # Lights
 TARGET_PROVIDES_LIBLIGHT := true
 
+# Optimizations
+CLANG_O3 := true
+
 # Peripheral manager
 TARGET_PER_MGR_ENABLED := true
 
