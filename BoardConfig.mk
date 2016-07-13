@@ -123,6 +123,9 @@ TARGET_KERNEL_HEADER_ARCH := arm64
 TARGET_KERNEL_SOURCE := kernel/motorola/msm8992
 TARGET_USES_UNCOMPRESSED_KERNEL := true
 
+# Kernel Toolchain
+KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/$(HOST_OS)-x86/aarch64/aarch64-linux-android-4.9-kernel/bin
+
 # Lights
 TARGET_PROVIDES_LIBLIGHT := true
 
@@ -149,6 +152,9 @@ TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/fstab.qcom
 
 # Ril
 TARGET_RIL_VARIANT := caf
+
+# Rom Toolchain
+TARGET_GCC_VERSION_EXP := 4.9
 
 # SELinux
 include device/qcom/sepolicy/sepolicy.mk
