@@ -10,3 +10,4 @@ type sysfs_light, sysfs_type;
 type sysfs_performance, sysfs_type, fs_type;
 type sysfs_power, sysfs_type;
 type sysfs_power_management, fs_type, sysfs_type;
+type vibeamp_sysfs, file_type, sysfs_type;
